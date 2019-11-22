@@ -89,12 +89,14 @@ body{
 	float: left;
 	width: 50%;
 	margin-bottom: 20px;
+	padding: 5px;
 }
 
 .title2 video {
 	float: right;
 	width: 50%;
 	margin-bottom: 20px;
+	padding: 5px
 }
 
 .title1 p{
@@ -137,6 +139,12 @@ body{
 .Steps img{
 	margin-bottom: 15px;
 }
+
+img{
+	max-width: 100%;
+	vertical-align: middle;
+	border-style: none;
+} 
 
 footer .logo img {
   display: block;
