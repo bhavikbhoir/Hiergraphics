@@ -4,7 +4,8 @@ This repository contains the design of various web pages for Hiergraphics app.
 
 Pages completed:
 
-1. Home
+1. Home Page
+2. Login and Registration Pages
 
 Functions added:
 
@@ -15,7 +16,8 @@ Functions added:
 5. A section that displays the workflow of the app.
 6. A stay updated section
 7. A footer section with links to follow the app on various social media websites.
+8. Login and Registration pages added with sql database to store the user data. (Note: More updates to follow soon)
 
-Technologies used: HTML5, CSS3, Bootstrap, JavaScript, and Sublime text editor.
+Technologies used: HTML5, CSS3, Bootstrap, JavaScript, MySQL, PHP, PhpMyAdmin, and Sublime text editor.
 
 About Hiergraphics: A Picture to text translaton app.
