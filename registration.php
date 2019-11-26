@@ -19,11 +19,21 @@
 		$password = stripslashes($_REQUEST['password']);
 		$password = mysqli_real_escape_string($con,$password);
 
+
+		//Checking is user existing in the database or not
+        $query = "SELECT * FROM `users` WHERE username='$username' and password='".md5($password)."'";
+		$result = mysqli_query($con,$query) or die(mysql_error());
+		$rows = mysqli_num_rows($result);
+        if($rows==1){
+        	echo "<div class='duplicate' justify-content-center><h3>User Exists</h3><br/>Click here to go back to <a href='registration.php'>Registration</a></div>";
+        }else{
+
 		$trn_date = date("Y-m-d H:i:s");
         $query = "INSERT into `users` (username, password, email, trn_date) VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
         $result = mysqli_query($con,$query);
         if($result){
 			echo "<div class='form'><h3>You are registered successfully.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
+        }        	
         }
     }else{
 ?>
