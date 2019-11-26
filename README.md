@@ -18,6 +18,6 @@ Functions added:
 7. A footer section with links to follow the app on various social media websites.
 8. Login and Registration pages added with sql database to store the user data. (Note: More updates to follow soon)
 
-Technologies used: HTML5, CSS3, Bootstrap, JavaScript, MySQL, PHP, PhpMyAdmin, and Sublime text editor.
+Technologies used: HTML5, CSS3, Bootstrap, JavaScript, MySQL, PHP, phpMyAdmin, and Sublime text editor.
 
 About Hiergraphics: A Picture to text translaton app.
