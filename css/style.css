@@ -24,6 +24,11 @@ a:hover {
 .form h1{
 	text-align: center;
 }
+.duplicate{
+	width: 400px; 
+	margin: 0 auto;
+	text-align: center;
+}
 input[type='text'], input[type='email'], input[type='password'] {
 	width: 300px; 
 	border-radius: 2px;
