@@ -1,5 +1,5 @@
 body {
-	font-family:Arial, Sans-Serif;
+	font-family:cursive;
 	background-color: rgb(250,250,210);
 }
 .clearfix:before, .clearfix:after { 
@@ -20,13 +20,11 @@ a:hover {
 	width: 400px; 
 	margin: 0 auto;
 	text-align: center;
+	background-color: white;
+    font-family: cursive;
+    border: 2px solid rgb(255,150,202);
 }
 .form h1{
-	text-align: center;
-}
-.duplicate{
-	width: 400px; 
-	margin: 0 auto;
 	text-align: center;
 }
 input[type='text'], input[type='email'], input[type='password'] {
