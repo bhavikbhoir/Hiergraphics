@@ -3,17 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>Login</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
-<style>
-	body{
-	background-color: rgb(250,250,210);
-	}
-	.container{
-	background-color: white;
-	font-family: cursive;
-	border: 2px solid rgb(255,150,202);
-	}
-</style>
 <body>
 <?php
 	require('db.php');
@@ -39,8 +30,8 @@
     }else{
 ?>
 <div class="form">
-	<div class="container">
 
+<div class="container">
 <h1>Log In</h1>
 <form action="" method="post" name="login">
 <input type="text" name="username" placeholder="Username" required />
