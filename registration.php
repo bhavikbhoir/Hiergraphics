@@ -3,8 +3,21 @@
 <head>
 <meta charset="utf-8">
 <title>Registration</title>
-<link rel="stylesheet" href="css/style.css" />
 </head>
+
+<style>
+    body{
+    background-color: rgb(250,250,210);
+}
+    .container{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    font-family: cursive;
+    border: 2px solid rgb(255,150,202);;
+    }
+</style>
+
 <body>
 <?php
 	require('db.php');
@@ -38,6 +51,8 @@
     }else{
 ?>
 <div class="form">
+    <div class="container">
+
 <h1>Registration</h1>
 <form name="registration" action="" method="post">
 <input type="text" name="username" placeholder="Username" required />
@@ -45,11 +60,13 @@
 <input type="password" name="password" placeholder="Password" required />
 <input type="submit" name="submit" value="Register" />
 </form>
+<p>Already have an account? <a href='login.php'>Log In Here</a></p>
 <br /><br />
         <div class="copyright">
-            <p class="text-center">&copy; 2019 <a href="index.html">Hiergraphics</a>. <br>All Rights Reserved.<br>Design
+            <p class="text-center">&copy; 2019 <a href="#">Hiergraphics</a>. <br>All Rights Reserved.<br>Design
                 by <a href="#" target="_blank">Bhavik Bhoir</a>.</p>
         </div>
+</div>
 
 </div>
 <?php } ?>
