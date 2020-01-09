@@ -75,7 +75,7 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
       <button class="button" onclick="window.location.href = 'https://play.google.com/store/';">Download Application</button>
     </div>
     <div class="column-33">
-        <img src="Phone.png" width="200px" height="200px">
+        <img src="Assets/Phone.png" width="200px" height="200px">
     </div>
   </div>
 </div>
@@ -84,7 +84,7 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
 <div class="container" style="background-color:rgb(255,150,202)">
   <div class="row">
     <div class="column-33">
-      <img src="Click.png" alt="App" width="200px" height="200px">
+      <img src="Assets/Click.png" alt="App" width="200px" height="200px">
     </div>
     <div class="column-66">
       <h1 class="xlarge-font"><b>Clarity</b></h1>
@@ -105,7 +105,7 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
       <button class="button" onclick="window.location.href = 'https://play.google.com/store/';">Download Application</button>
     </div>
     <div class="column-33">
-        <img src="Convert.png" width="200px" height="200px" >
+        <img src="Assets/Convert.png" width="200px" height="200px" >
     </div>
   </div>
 </div>
