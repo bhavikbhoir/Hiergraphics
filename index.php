@@ -19,7 +19,7 @@ include("auth.php");
 	
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
 </head> 
 
 <body> 
