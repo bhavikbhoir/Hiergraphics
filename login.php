@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Login</title>
 </head>
-<style type="text/css">
+<style>
 	body{
 	background-color: rgb(250,250,210);
 	}
