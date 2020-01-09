@@ -5,6 +5,16 @@
 <title>Login</title>
 <link rel="stylesheet" href="css/style.css" />
 </head>
+<style type="text/css">
+	body{
+	background-color: rgb(250,250,210);
+	}
+	.container{
+	background-color: white;
+	font-family: cursive;
+	border: 2px solid rgb(255,150,202);
+	}
+</style>
 <body>
 <?php
 	require('db.php');
@@ -30,6 +40,8 @@
     }else{
 ?>
 <div class="form">
+	<div class="container">
+
 <h1>Log In</h1>
 <form action="" method="post" name="login">
 <input type="text" name="username" placeholder="Username" required />
@@ -43,6 +55,8 @@
             <p class="text-center">&copy; 2019 <a href="#">Hiergraphics</a>. <br>All Rights Reserved.<br>Design
                 by <a href="#" target="_blank">Bhavik Bhoir</a>.</p>
         </div>
+
+</div>
 
 </div>
 <?php } ?>
