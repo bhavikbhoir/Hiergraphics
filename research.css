@@ -105,41 +105,6 @@ body{
 }	
  }
 
-/*
-.title1{
-	border: 2px solid rgb(255,150,202);
-	margin: 10px;
-	text-align: center;
-	background-color: white;
-	color: rgb(105,105,105);
-	display: inline-block;
-}
-
-.title1 h1{
-	padding: 10px;
-	text-align: center;
-	color:rgb(255,150,202);
-	border-bottom: 1px solid rgb(105,105,105);
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-
-.title1 video {
-	float: left;
-	width: 50%;
-	margin-bottom: 20px;
-	padding: 5px;
-}
-
-.title1 p{
-	float: right;
-	width: 50%;
-	text-align: left;
-}
-
-*/
-
 footer .logo img {
   display: block;
   margin-left: auto;
