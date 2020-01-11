@@ -14,8 +14,8 @@ Functions added:
 
 1. A responsive design of the web page that works on all device sizes.
 2. A responsive navigation bar.
-3. A About section and a seperate page to display information about the app.
-4. A Research section and a sepearate page displaying the timeline of the research conducted for the app.
+3. A About section and a separate page to display information about the app.
+4. A Research section and a separate page displaying the timeline of the research conducted for the app.
 5. A section that displays the workflow of the app.
 6. A Features page displaying the various features of the app similar to the workflow mentioned on the home page.
 7. A stay updated section.
