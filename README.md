@@ -24,4 +24,5 @@ This repository contains the design of various web pages for Hiergraphics app.
 
 Technologies used: HTML5, CSS3, Bootstrap, JavaScript, MySQL, PHP, phpMyAdmin, and Sublime text editor.
 
-## About Hiergraphics: A Picture to text translaton app.
+## About Hiergraphics: 
+A Picture to text translaton app.
