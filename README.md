@@ -1,8 +1,8 @@
-Web UI design of Hiergraphics app.
+## Web UI design of Hiergraphics app.
 
 This repository contains the design of various web pages for Hiergraphics app.
 
-Pages completed:
+## Pages completed:
 
 1. Home Page
 2. Features Page
@@ -10,7 +10,7 @@ Pages completed:
 4. Research Page
 5. Login and Registration Pages
 
-Functions added:
+## Functions added:
 
 1. A responsive design of the web page that works on all device sizes.
 2. A responsive navigation bar.
@@ -24,4 +24,4 @@ Functions added:
 
 Technologies used: HTML5, CSS3, Bootstrap, JavaScript, MySQL, PHP, phpMyAdmin, and Sublime text editor.
 
-About Hiergraphics: A Picture to text translaton app.
+## About Hiergraphics: A Picture to text translaton app.
